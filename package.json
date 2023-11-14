@@ -1,0 +1,17 @@
+{
+  "name": "practice_ship",
+  "version": "1.0.0",
+  "description": "A place where I shall be working out JavaScript challenges from Codewars, HackerRank and other reputable online challenge sites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "practice",
+    "ship",
+    "skills",
+    "sharpener"
+  ],
+  "author": "Chris Kilelo",
+  "license": "ISC"
+}
