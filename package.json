@@ -13,5 +13,9 @@
     "sharpener"
   ],
   "author": "Chris Kilelo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1"
+  }
 }
