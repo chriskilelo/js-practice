@@ -27,3 +27,13 @@ const helpers = require('./src/utils/Helpers')
 // const integer2Use = 100;
 // const result = helpers.countBits(integer2Use);
 // console.log(result);
+
+
+/**
+ * KATA3
+ * capitalizeWords(sentence)
+ * This function capitalizes the first letter of each word whether its a single word or a sentence
+ */
+const sentence = "How can MiRrORS bE real if our eYeS aren't REaL";
+const result = sentence.capitalizeWords();
+console.log(result.gray.bold.bgCyan);

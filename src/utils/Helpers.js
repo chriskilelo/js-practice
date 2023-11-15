@@ -48,6 +48,23 @@ const countBits = (integer2Use) => {
     return onesCounter;
 }
 
+/**
+ * This function capitalizes the first letter of each word whether its a single word or a sentence
+ * https://www.codewars.com/kata/5390bac347d09b7da40006f6
+ * @returns string
+ */
+String.prototype.capitalizeWords = function () {
+    // Split the sentence into an array of words
+    const words = this.toLowerCase().split(' ');
+    // Capitalize the first letter of each word
+    const capitalizedWords = words.map(word => word.charAt(0).toUpperCase() + word.slice(1));
+    // Join the capitalized words back into a sentence
+    const capitalizedSentence = capitalizedWords.join(' ');
+    // Return the new sentence back to the calling function
+    return capitalizedSentence;
+};
+
+
 module.exports = {
     getArrayDifference,
     countBits,
