@@ -27,6 +27,28 @@ const getArrayDifference = (array1, array2) => {
     }
 }
 
+/**
+ * 
+ * @param {int} integer2Use 
+ * @returns 
+ */
+const countBits = (integer2Use) => {
+    // Convert the integer into binary
+    const binaryEquivalent = integer2Use.toString(2);
+    // Initialize a counter for counting 1's
+    let onesCounter = 0;
+    // Iterate through each character in the binary string
+    for (let i = 0; i < binaryEquivalent.length; i++) {
+        // Check if the character is '1'
+        if (binaryEquivalent[i] === '1') {
+            onesCounter++;
+        }
+    }
+    // Return the total count of the 1's
+    return onesCounter;
+}
+
 module.exports = {
     getArrayDifference,
+    countBits,
 }
