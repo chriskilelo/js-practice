@@ -24,6 +24,6 @@ const helpers = require('./src/utils/Helpers')
  * A function that accepts an integer, computes its binary equivalent, counts the number 
  * of 1's on the binary equivalent and returns the total count of the 1's identified
  */
-const integer2Use = 100;
-const result = helpers.countBits(integer2Use);
-console.log(result);
+// const integer2Use = 100;
+// const result = helpers.countBits(integer2Use);
+// console.log(result);
