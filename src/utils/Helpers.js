@@ -5,7 +5,10 @@
  */
 
 /**
- * 
+ * This function accepts two arrays and compares them, removing the elements that 
+ * are common on both arrays and returning a new array that only has the 
+ * unique elements that were not removed.
+ * Link to challenge: https://www.codewars.com/kata/523f5d21c841566fde000009
  * @param {*} array1 
  * @param {*} array2 
  * @returns 
@@ -28,7 +31,9 @@ const getArrayDifference = (array1, array2) => {
 }
 
 /**
- * 
+ * A function that accepts an integer, computes its binary equivalent, counts the number 
+ * of 1's on the binary equivalent and returns the total count of the 1's identified
+ * Link to challenge: https://www.codewars.com/kata/526571aae218b8ee490006f4
  * @param {int} integer2Use 
  * @returns 
  */
@@ -50,7 +55,7 @@ const countBits = (integer2Use) => {
 
 /**
  * This function capitalizes the first letter of each word whether its a single word or a sentence
- * https://www.codewars.com/kata/5390bac347d09b7da40006f6
+ * Link to challenge: https://www.codewars.com/kata/5390bac347d09b7da40006f6
  * @returns string
  */
 String.prototype.capitalizeWords = function () {

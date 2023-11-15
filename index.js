@@ -11,8 +11,12 @@ require('dotenv').config()
 const helpers = require('./src/utils/Helpers')
 
 /**
+ * KATA1
  * getArrayDifference(arr1, arr2)
- * */
+ * This function accepts two arrays and compares them, removing the elements that 
+ * are common on both arrays and returning a new array that only has the 
+ * unique elements that were not removed.
+ */
 // const arr1 = ['a','b','c','d','e','f','g','h'];
 // const arr2 = [];
 // const result = helpers.getArrayDifference(arr1, arr2);
@@ -20,8 +24,9 @@ const helpers = require('./src/utils/Helpers')
 
 
 /**
+ * KATA2
  * countBits(integer2Use)
- * A function that accepts an integer, computes its binary equivalent, counts the number 
+ * This function accepts an integer, computes its binary equivalent, counts the number 
  * of 1's on the binary equivalent and returns the total count of the 1's identified
  */
 // const integer2Use = 100;
