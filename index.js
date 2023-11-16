@@ -49,6 +49,6 @@ const helpers = require('./src/utils/Helpers')
  * findNeedle(sentence)
  * This function looks for the word 'needle' in an array that is called the 'haystack'.
  */
-const haystack = ['a','b','c','d','NEEdlE','f'];
-const result = helpers.findNeedle(haystack)
-console.log(result);
+// const haystack = ['a','b','c','d','NEEdlE','f'];
+// const result = helpers.findNeedle(haystack)
+// console.log(result);
