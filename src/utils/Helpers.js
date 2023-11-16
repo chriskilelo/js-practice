@@ -69,8 +69,36 @@ String.prototype.capitalizeWords = function () {
     return capitalizedSentence;
 };
 
+/**
+ * This function looks for the word 'needle' in an array that is called the 'haystack'.
+ * Link to challenge: https://www.codewars.com/kata/56676e8fabd2d1ff3000000c
+ * @param {*} haystack 
+ * @returns string
+ */
+const findNeedle = (haystack) => {
+    // Check whether the variable passed in is an array
+    if (Array.isArray(haystack) === false) {
+        // Means the variable is not an array
+        return 'Variable supplied is NOT an array.'
+    } else {
+        // Means variable is an array, get the its length 
+        let haystackLength = haystack.length;
+        var response = "";
+        // Loop through the haystack to search for the needle
+        for (let i = 0; i <= haystackLength - 1; i++) {
+            // Check to see if the current element is the needle
+            if (haystack[i].toLowerCase().trim() === 'needle') {
+                response = 'found the needle at position ' + i.toString();
+            }
+        }
+        // Return back the result
+        return response;
+    }
+}
+
 
 module.exports = {
     getArrayDifference,
     countBits,
+    findNeedle,
 }

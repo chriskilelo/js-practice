@@ -42,3 +42,13 @@ const helpers = require('./src/utils/Helpers')
 // const sentence = "How can MiRrORS bE real if our eYeS aren't REaL";
 // const result = sentence.capitalizeWords();
 // console.log(result.gray.bold.bgCyan);
+
+
+/**
+ * KATA4
+ * findNeedle(sentence)
+ * This function looks for the word 'needle' in an array that is called the 'haystack'.
+ */
+const haystack = ['a','b','c','d','NEEdlE','f'];
+const result = helpers.findNeedle(haystack)
+console.log(result);
